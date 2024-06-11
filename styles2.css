@@ -1,0 +1,308 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-vector/paper-style-dynamic-lines-background_23-2149008629.jpg?size=626&ext=jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+#careers{
+    margin-right: 40px;
+}
+
+/* Header Styles */
+nav {
+    background-color: #57595c; /* Background color for the navigation */
+    padding: 10px 20px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    top: 0; /* Place it at the top */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    border-radius: 48%;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#nav-div{
+    margin-left: 50%;
+    margin-right: 5%;
+}
+nav img#logo {
+    height: 50px;
+}
+
+nav a {
+    color: #fff; /* Color for the navigation links */
+    margin: 0 10px;
+}
+
+/* Main Content Styles */
+main {
+    padding-top: calc(60px + 20px); /* Adjust main content position to avoid overlapping with nav and add additional space */
+    width: 100%;
+    box-sizing: border-box;
+    overflow: auto; /* Ensure proper scrolling if content exceeds viewport height */
+}
+
+section {
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.about-us-div {
+    display: flex;
+    width: 48%;
+}
+
+.about-us-div p {
+    margin: 0;
+}
+
+#about-us {
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#why-choose-us {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+    width: 98%;
+}
+#our-mission{
+    width: 100%;
+    align-items: center;
+}
+#welcome{
+    text-align: center;
+    color: aquamarine;
+}
+
+h3{
+    text-align: center;
+    color: #ccc;
+}
+.why-choose-us-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 49%;
+}
+
+.why-choose-us-div > div {
+    width: 32%;
+}
+
+/* Services Section Styles */
+#services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50% auto;
+    height: 50vh;
+    margin: 30px;
+    bottom: 100px;
+}
+
+#services div {
+    width: calc(25% - 20px);
+    margin: 10px;
+    text-align: center;
+}
+
+#services img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
+#services button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#services button:hover {
+    background-color: #0056b3;
+}
+
+/* Contacts Section Styles */
+#contacts {
+    background-color: #8b8d8f;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 40px;
+
+}
+
+#contacts form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts label {
+    margin-bottom: 10px;
+}
+.message{
+    color: #57595c;
+}
+
+/* Adjustments to fit elements within fieldset */
+#contacts input[type="text"], #contacts input[type="email"], #contacts input[type="tel"],
+#contacts textarea,
+#contacts button {
+    width: calc(100% - 20px); /* Adjust width to fit within fieldset */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+#contacts textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#contacts button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contacts button:hover {
+    background-color: #0056b3;
+}
+/* styles2.css */
+
+#contacts {
+    padding: 20px;
+    background-color: #bbb7b7;
+}
+
+#contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    margin: auto;
+    border-radius: 20%;
+}
+
+#contact-info p{
+    color: #333;
+}
+
+.contact-item {
+    width: 30%;
+}
+
+.contact-item h3 {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.careers{
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    background-color: #918f8f;
+    padding: 20px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#service-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 65px;
+    padding: 10px;
+    color: #f8f8f8;
+    max-width: 70%;
+    min-width: none;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#service-div div{
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.description{
+    height: auto;
+    width: auto;
+    text-align: justify;
+}
+#image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    padding: 0%;
+}
